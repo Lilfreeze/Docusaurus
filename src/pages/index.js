@@ -34,32 +34,32 @@ export default function Home() {
   return (
     <Layout>
       <h1>
-        <Translate>Welcome to my website</Translate>
+        <Translate>Bienvenue sur UnifiedConnect</Translate>
       </h1>
       <main>
         <Translate
           id="homepage.visitMyBlog"
-          description="The homepage message to ask the user to visit my blog"
+          description="TLe message de page d'accueil pour demander à l'utilisateur de visiter mon blog"
           values={{
             blogLink: (
               <Link to="https://docusaurus.io/blog">
                 <Translate
                   id="homepage.visitMyBlog.linkLabel"
-                  description="The label for the link to my blog">
+                  description="Le Lable pour le lien vers mon blog">
                   Blog
                 </Translate>
               </Link>
             ),
           }}>
-          {'You can also visit my {blogLink}'}
+          {'Vous pouvez aussi visiter mon blog {blogLink}'}
         </Translate>
 
         <img
           src="/img/home.png"
           alt={
             translate({
-              message: 'Home icon',
-              description: 'The homepage icon alt message',
+              message: 'Icone d\'accueil',
+              description: 'L\'icone de la page d\'accueil',
             })
           }
         />
