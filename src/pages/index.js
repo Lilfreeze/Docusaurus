@@ -39,13 +39,13 @@ export default function Home() {
       <main>
         <Translate
           id="homepage.visitMyBlog"
-          description="TLe message de page d'accueil pour demander à l'utilisateur de visiter mon blog"
+          description="Le message de page d'accueil pour demander à l'utilisateur de visiter mon blog"
           values={{
             blogLink: (
               <Link to="https://docusaurus.io/blog">
                 <Translate
                   id="homepage.visitMyBlog.linkLabel"
-                  description="Le Lable pour le lien vers mon blog">
+                  description="Le label pour le lien vers mon blog">
                   Blog
                 </Translate>
               </Link>
