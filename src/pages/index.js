@@ -42,7 +42,7 @@ export default function Home() {
           description="Message de la page d'accueil pour souhaiter la bienvenue"
           values={{
           }}>
-          {'Accès au Wiki et au nBlog UnifiedConnect'}
+          {'Accès au Wiki et au Blog UnifiedConnect'}
         </Translate>
       </main>
     </Layout>
