@@ -2,10 +2,6 @@
   "Bienvenue sur UnifiedConnect": {
     "message": "Welcome to UnifiedConnect"
   },
-  "homepage.visitMyBlog": {
-    "message": "You can also visit my blog {blogLink}",
-    "description": "Message de la page d'accueil pour souhaiter la bienvenue"
-  },
   "theme.ErrorPageContent.title": {
     "message": "This page has crashed.",
     "description": "The title of the fallback page when the page crashed"
