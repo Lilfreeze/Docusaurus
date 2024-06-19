@@ -1,4 +1,4 @@
-# Answers
+# Responses
 
 1xx = informative responses, such as 180 (ringing)
 

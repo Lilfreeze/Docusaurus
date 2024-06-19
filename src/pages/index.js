@@ -39,30 +39,11 @@ export default function Home() {
       <main>
         <Translate
           id="homepage.visitMyBlog"
-          description="Le message de page d'accueil pour demander à l'utilisateur de visiter mon blog"
+          description="Message de la page d'accueil pour souhaiter la bienvenue"
           values={{
-            blogLink: (
-              <Link to="https://docusaurus.io/blog">
-                <Translate
-                  id="homepage.visitMyBlog.linkLabel"
-                  description="Le label pour le lien vers mon blog">
-                  Blog
-                </Translate>
-              </Link>
-            ),
           }}>
-          {'Vous pouvez aussi visiter mon blog {blogLink}'}
+          {'Accès au Wiki et au nBlog UnifiedConnect'}
         </Translate>
-
-        <img
-          src="/img/home.png"
-          alt={
-            translate({
-              message: 'Icone d\'accueil',
-              description: 'L\'icone de la page d\'accueil',
-            })
-          }
-        />
       </main>
     </Layout>
   );

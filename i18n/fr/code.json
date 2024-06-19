@@ -4,15 +4,7 @@
   },
   "homepage.visitMyBlog": {
     "message": "Vous pouvez aussi visiter mon blog {blogLink}",
-    "description": "TLe message de page d'accueil pour demander à l'utilisateur de visiter mon blog"
-  },
-  "homepage.visitMyBlog.linkLabel": {
-    "message": "Blog",
-    "description": "Le Lable pour le lien vers mon blog"
-  },
-  "Icone d'accueil": {
-    "message": "Icone d'accueil",
-    "description": "L'icone de la page d'accueil"
+    "description": "Message de la page d'accueil pour souhaiter la bienvenue"
   },
   "theme.ErrorPageContent.title": {
     "message": "Cette page a planté.",
