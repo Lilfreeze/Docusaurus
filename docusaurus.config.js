@@ -122,8 +122,8 @@ const config = {
                 to: '/blog',
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: 'AdminPageUC',
+                href: 'https://admin.unifiedconnect.net',
               },
             ],
           },
