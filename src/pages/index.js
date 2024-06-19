@@ -33,9 +33,9 @@ function HomepageHeader() {
 export default function Home() {
   return (
     <Layout>
-      <h1>
+      <Heading as="h1" className="hero__title">
         <Translate>Bienvenue sur UnifiedConnect</Translate>
-      </h1>
+      </Heading>
       <main>
         <Translate
           id="homepage.visitMyBlog"
