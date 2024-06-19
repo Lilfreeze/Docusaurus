@@ -37,12 +37,8 @@ export default function Home() {
         <Translate>Bienvenue sur UnifiedConnect</Translate>
       </Heading>
       <main>
-        <Translate
-          id="homepage.visitMyBlog"
-          description="Message de la page d'accueil pour souhaiter la bienvenue"
-          values={{
-          }}>
-          {'Accès au Wiki et au Blog UnifiedConnect'}
+        <Translate>
+        <p className="hero__subtitle">Accès au Wiki et au Blog UnifiedConnect</p>
         </Translate>
       </main>
     </Layout>
